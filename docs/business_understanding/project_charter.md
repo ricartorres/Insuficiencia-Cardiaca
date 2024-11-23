@@ -2,7 +2,7 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Predicción Insuficiencia Cardiaca
 
 ## Objetivo del Proyecto
 
@@ -38,8 +38,8 @@ Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse d
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Henry Hernán Bolaños Bravo
+- Wilson Ricardo Torres Morales
 
 ## Presupuesto
 
