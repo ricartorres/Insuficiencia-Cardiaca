@@ -22,7 +22,15 @@ Predicción Insuficiencia Cardiaca
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+CRISP-DM (Cross-Industry Standard Process for Data Mining) es una metodología para el desarrollo de proyectos de aprendizaje automático. Fue diseñada para ser flexible y aplicable a una amplia variedad de industrias y tipos de proyectos. Su estructura es iterativa y permite una aproximación estructurada a la solución de problemas de análisis de datos.
+
+La metodología CRISP-DM consta de seis fases principales, que proporcionan un marco para el desarrollo de proyectos de aprendizaje automático. Estas fases no son necesariamente lineales, sino que pueden solaparse o repetirse, ya que el proceso de minería de datos es muy interactivo. Las fases son:
+- Comprensión del negocio
+- Comprensión de los datos
+- Preparación de los datos
+- Modelado
+- Evaluación
+- Despliegue
 
 ## Cronograma
 
