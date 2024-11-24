@@ -2,23 +2,165 @@
 
 ## Nombre del Proyecto
 
-Predicción Insuficiencia Cardiaca
+Predicción Insuficiencia Cardiaca Utilizando Técnicas de Machine Learning
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+### Objetivo General:
+Desarrollar un modelo predictivo basado en técnicas de machine learning para identificar tempranamente el riesgo de insuficiencia cardíaca en pacientes, mediante el análisis de factores de riesgo, contribuyendo así a la prevención y diagnóstico temprano de la enfermedad.
+
+### Objetivos Específicos:
+- Identificar y analizar los principales factores de riesgo asociados con la insuficiencia cardíaca
+- Determinar las correlaciones y patrones entre los diferentes factores de riesgo y el desarrollo de la enfermedad
+- Desarrollar un sistema de clasificación que combine múltiples modelos de machine learning para predecir el riesgo de insuficiencia cardíaca
+- Optimizar el rendimiento del modelo para lograr un equilibrio entre sensibilidad y especificidad en la detección de casos de riesgo
+- Implementar técnicas de interpretabilidad para explicar las predicciones del modelo de manera comprensible para el personal médico
+- Crear una herramienta de screening que ayude a los profesionales de la salud en la identificación temprana de pacientes en riesgo
+- Contribuir a la reducción de la mortalidad por enfermedades cardiovasculares mediante la detección temprana
+- Optimizar la asignación de recursos médicos priorizando la atención en pacientes con mayor riesgo
+
+
+## Planteamiento del Problema
+La insuficiencia cardíaca es una afección crónica y grave que se desarrolla con el tiempo. A medida que la capacidad de bombeo del corazón se debilita, resulta más difícil llenar y bombear sangre adecuadamente. Esto provoca diversos síntomas y puede afectar tanto el lado derecho, el lado izquierdo, o ambos lados del corazón.
+
+- **Referencias**:
+  - American Heart Association: [What is Heart Failure](https://www.heart.org/-/media/files/health-topics/answers-by-heart/answers-by-heart-spanish/what-is-heartfailure_span.pdf)
+  - National Institute on Aging: [Insuficiencia Cardíaca](https://www.nia.nih.gov/espanol/corazon/insuficiencia-cardiaca#:~:text=La%20insuficiencia%20card%C3%ADaca%20es%20una,satisfacer%20las%20necesidades%20del%20cuerpo)
+
+### Datos Clave
+- Las enfermedades cardiovasculares son la principal causa de muerte a nivel mundial.
+- Las muertes relacionadas con cardiopatías y accidentes cerebrovasculares afectan desproporcionadamente a países de ingresos medianos y bajos.
+- Factores como una alimentación poco saludable, inactividad física, y tabaquismo aumentan el riesgo de enfermedades cardiovasculares.
+
+- **Referencias**:
+  - Organización Panamericana de la Salud: [Enfermedades Cardiovasculares](https://www.paho.org/es/temas/enfermedades-cardiovasculares)
+  - Organización Mundial de la Salud: [Enfermedades Cardiovasculares](https://www.who.int/es/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds))
+
+### Síntomas
+- Dolor de pecho (angina de pecho)
+- Falta de aire
+- Dolor o entumecimiento en las extremidades
+- Dolor en el cuello, mandíbula, garganta, abdomen superior o espalda
+
+- **Referencias**:
+  - Organización Panamericana de la Salud: [Síntomas de Enfermedades Cardiovasculares](https://www.paho.org/es/temas/enfermedades-cardiovasculares)
+  - Organización Mundial de la Salud: [Síntomas de Enfermedades Cardiovasculares](https://www.who.int/es/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds))
+
+### Factores de Riesgo
+- **Demográficos**: Edad, sexo, antecedentes familiares
+- **Estilo de Vida**: Tabaquismo, alimentación, actividad física, consumo de alcohol
+- **Condiciones Médicas**: Hipertensión, diabetes, hiperlipidemia, obesidad
+- **Ambientales**: Contaminación atmosférica
+
+- **Referencias**:
+  - Organización Panamericana de la Salud: [Factores de Riesgo de Enfermedades Cardiovasculares](https://www.paho.org/es/temas/enfermedades-cardiovasculares)
+  - Organización Mundial de la Salud: [Factores de Riesgo de Enfermedades Cardiovasculares](https://www.who.int/es/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds))
+
+### Diagnóstico
+El diagnóstico de la insuficiencia cardíaca puede ser difícil, especialmente en las etapas iniciales. Muchos de los síntomas de la insuficiencia cardiaca no son específicos y, por lo tanto, no ayudan a distinguir entre la insuficiencia cardiaca y otros problemas. Los síntomas más específicos (ortopnea y disnea paroxística nocturna) son menos comunes, especialmente en pacientes con síntomas más leves, por lo que no son sensibles. Los síntomas y signos pueden ser especialmente difíciles de identificar e interpretar en obesos, persona mayor y paciente con EPOC
+
+- **Referencias**: 
+  - scielo: [Factores que inciden en la insuficiencia cardíaca en pacientes de edades adultas](https://homolog-ve.scielo.org/scielo.php?script=sci_arttext&pid=S1316-48212023000200108)
+
+### Prevención
+Las enfermedades cardiovasculares son la principal causa de defunción en el mundo. Según las estimaciones, se cobran cada año 17,9 millones de vidas. Para prevenir las defunciones prematuras es preciso conocer cuáles son las personas que corren más riesgo cardiovascular y velar por que reciban el tratamiento adecuado. Además, el acceso a medicamentos esenciales y tecnologías básicas de salud que permitan tratar las enfermedades no transmisibles en todos los centros de atención primaria es esencial para proporcionar tratamiento y asesoramiento a toda persona que lo necesite.
+
+- **Referencias**: 
+  - Organización Mundial de la Salud: [Enfermedades cardiovasculares] (https://www.who.int/es/health-topics/cardiovascular-diseases#tab=tab_1)
+
+## Justificación del Uso de Machine Learning
+1. **Complejidad del Diagnóstico Temprano**: Los síntomas no específicos dificultan el diagnóstico temprano.
+2. **Impacto en la Salud Pública**: Principales causantes de muerte a nivel mundial, afectando especialmente a países de ingresos medianos y bajos.
+3. **Múltiples Factores de Riesgo Interrelacionados**: Machine learning puede analizar múltiples factores simultáneamente para identificar patrones complejos.
+4. **Necesidad de Prevención**: Identificación temprana de personas en riesgo para proporcionar tratamiento adecuado.
+
+Machine learning se justifica porque puede procesar y analizar múltiples variables, detectar relaciones no lineales entre los factores de riesgo, identificar pacientes en riesgo antes de que desarrollen síntomas evidentes, y contribuir a los objetivos de salud pública.
+
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+#### Descripción de los datos disponibles
+1. Datos demográficos:
+  - Edad
+  - Sexo
+2. Datos clínicos:
+  - Anemia. Disminución de glóbulos rojos o hemoglobina (booleano)
+  - Creatinina_fosfoquinasa. Nivel de la enzima CPK en la sangre (mcg/L)
+  - Diabetes. Si el paciente tiene diabetes (booleano)
+  - Fracción_de_eyección. Porcentaje de sangre que sale del corazón en cada contracción (porcentaje)
+  - Hipertensión. Si el paciente tiene hipertensión (booleano)
+  - Plaquetas. Plaquetas en la sangre (kiloplaquetas/mL)
+  - Creatinina sérica. Nivel de creatinina sérica en la sangre (mg/dL)
+  - Sodio sérico. Nivel de sodio sérico en la sangre (mEq/L)
+
+#### Descripción de los resultados esperados
+a) Modelo predictivo:
+  - Sistema de clasificación de riesgo de insuficiencia cardíaca
+  - Puntuación de riesgo para cada paciente
+  - Identificación de factores de riesgo más relevantes
+  - Intervalos de confianza para las predicciones
+
+b) Documentación técnica:
+  - Manual de implementación del modelo
+  - Documentación del código
+  - Guía de interpretación de resultados
+  - Reporte de validación y pruebas
+
+c) Herramientas de visualización:
+  - Dashboard para monitoreo de predicciones
+  - Gráficos de importancia de variables
+  - Visualización de tendencias y patrones
+
+#### Criterios de éxito del proyecto
+a) Métricas técnicas:
+  - Sensibilidad > 80% (detección de casos positivos)
+  - Especificidad > 75% (identificación correcta de casos negativos)
+  - Área bajo la curva ROC > 0.85
+  - Valor predictivo positivo > 70%
+
+b) Métricas de implementación:
+  - Tiempo de procesamiento < 5 segundos por predicción
+  - Tasa de error en producción < 1%
+  - Disponibilidad del sistema > 99%
+
+c) Métricas de impacto:
+  - Reducción del tiempo de diagnóstico
+  - Mejora en la identificación temprana de casos de riesgo
+  - Satisfacción del personal médico con la herramienta
 
 ### Excluye:
+a) Desarrollo de hardware:
+  - No incluye desarrollo de dispositivos médicos
+  - No incluye integración con equipos de monitoreo cardíaco
+  - No incluye desarrollo de sensores o dispositivos de medición
 
-- [Descripción de lo que no está incluido en el proyecto]
+b) Aspectos médicos:
+  - No reemplaza el diagnóstico médico profesional
+  - No genera planes de tratamiento
+  - No proporciona recomendaciones médicas específicas
+  - No incluye seguimiento de pacientes
+  - No realiza ajustes de medicación
+
+c) Aspectos técnicos:
+  - No incluye desarrollo de aplicaciones móviles
+  - No incluye integración con sistemas de historias clínicas existentes
+  - No incluye procesamiento de imágenes médicas
+  - No incluye análisis de señales ECG
+  - No incluye procesamiento de datos en tiempo real
+
+d) Aspectos administrativos:
+  - No incluye gestión de citas médicas
+  - No incluye gestión de inventario de medicamentos
+  - No incluye facturación o aspectos financieros
+  - No incluye gestión de recursos hospitalarios
+
+e) Ámbito geográfico:
+  - No incluye adaptación a regulaciones internacionales
+  - No incluye localización para múltiples idiomas
+  - No incluye consideraciones específicas de diferentes sistemas de salud
+
 
 ## Metodología
 
