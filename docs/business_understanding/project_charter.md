@@ -1,4 +1,5 @@
 # Project Charter - Entendimiento del Negocio
+## Este es un pequeño cambio de prueba
 
 ## Nombre del Proyecto
 
