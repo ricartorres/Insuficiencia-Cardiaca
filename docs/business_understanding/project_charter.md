@@ -1,5 +1,7 @@
 # Project Charter - Entendimiento del Negocio
 
+![Descripción de la imagen](Falla-cardiaca.jpg "Título opcional")
+
 ## Nombre del Proyecto
 
 Predicción Insuficiencia Cardiaca Utilizando Técnicas de Machine Learning
