@@ -170,12 +170,36 @@ CRISP-DM (Cross-Industry Standard Process for Data Mining) es una metodología p
 
 La metodología CRISP-DM consta de seis fases principales, que proporcionan un marco para el desarrollo de proyectos de aprendizaje automático. Estas fases no son necesariamente lineales, sino que pueden solaparse o repetirse, ya que el proceso de minería de datos es muy interactivo. Las fases son:
 - Comprensión del negocio
+  - Objetivo: Comprender el problema clínico de la insuficiencia cardíaca (IC) y definir los objetivos del modelo.
+  - Acciones: Definir la pregunta clínica que el modelo debe responder.
+  - Identificar las variables relevantes para la insuficiencia cardíaca.
 - Comprensión de los datos
+  - Objetivo: Obtener y explorar los datos disponibles para el modelado.
+  - Acciones: Recolectar datos clínicos de pacientes con insuficiencia cardíaca.
+  - Explorar los datos: Identificar la calidad de los datos, detectar valores faltantes, distribuciones de variables, y buscar correlaciones o patrones en las variables.
+  - Realizar análisis preliminares como análisis estadísticos, histogramas, y diagramas de dispersión para comprender las relaciones entre las variables. 
 - Preparación de los datos
+  - Objetivo: Limpiar y transformar los datos para que sean adecuados para el modelado.
+  - Acciones: Limpiar los datos.
+  - Transformar las variables: Normalizar o estandarizar los datos.
+  - Crear nuevas características o variables a partir de las existentes y dividir los datos en conjuntos de entrenamiento y prueba. 
 - Modelado
+  - Objetivo: Seleccionar y aplicar modelos predictivos para predecir insuficiencia cardíaca.
+  - Acciones: Seleccionar los algoritmos más apropiados para el problema (regresión logística, árboles de decisión, bosques aleatorios, redes neuronales).
+  - Entrenar los modelos utilizando los datos de entrenamiento.
+  - Evaluar el rendimiento de cada modelo utilizando métricas como precisión, recall, F1-score, AUC-ROC o error cuadrático medio.
+  - Ajustar los hiperparámetros del modelo para mejorar su rendimiento.
 - Evaluación
+  - Objetivo: Evaluar el rendimiento del modelo y verificar que cumpla con los objetivos del negocio.
+  - Acciones: Evaluar el modelo con el conjunto de datos de prueba para comprobar su capacidad de generalización.
+  - Validar que el modelo predice correctamente el riesgo de insuficiencia cardíaca.
+  - Realizar pruebas de validación cruzada para garantizar que el modelo es robusto y no está sobreajustado a los datos de entrenamiento.
+  - Comparar los resultados del modelo con las expectativas del negocio y los resultados clínicos. 
 - Despliegue
-
+  - Objetivo: Implementar el modelo en un entorno real para tomar decisiones clínicas.
+  - Acciones: Crear una interfaz para que los usuarios puedan ingresar nuevos datos de pacientes y obtener predicciones sobre el riesgo de insuficiencia cardíaca. 
+  - Monitorizar el rendimiento del modelo una vez desplegado, y realizar ajustes o recalibraciones si es necesario.
+  
 ## Cronograma
 
 ![Descripción de la imagen](CronogramaFallaCardiaca.png "Título opcional")
