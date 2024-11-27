@@ -76,7 +76,40 @@ Las enfermedades cardiovasculares son la principal causa de defunción en el mun
 3. **Múltiples Factores de Riesgo Interrelacionados**: Machine learning puede analizar múltiples factores simultáneamente para identificar patrones complejos.
 4. **Necesidad de Prevención**: Identificación temprana de personas en riesgo para proporcionar tratamiento adecuado.
 
-Machine learning se justifica porque puede procesar y analizar múltiples variables, detectar relaciones no lineales entre los factores de riesgo, identificar pacientes en riesgo antes de que desarrollen síntomas evidentes, y contribuir a los objetivos de salud pública.
+El uso de Machine learning se justifica porque puede procesar y analizar múltiples variables, detectar relaciones no lineales entre los factores de riesgo, identificar pacientes en riesgo antes de que desarrollen síntomas evidentes, y contribuir a los objetivos de salud pública.
+
+## Modelos de machine learning propuestos
+**Modelos de Clasificación Binaria:**
+1. **Regresión Logística:**
+- Ventajas:
+  - Alta interpretabilidad (crucial en contextos médicos)
+  - Puede proporcionar probabilidades de riesgo
+  - Útil para identificar la importancia relativa de cada factor de riesgo
+- Uso: Modelo base para evaluar el riesgo inicial de insuficiencia cardíaca
+
+2. **Random Forest:**
+- Ventajas:
+  - Maneja bien datos no lineales y correlacionados
+  - Puede trabajar con los múltiples factores de riesgo mencionados
+  - Proporciona importancia de características
+  - Robusto ante valores atípicos
+- Uso: Identificar interacciones complejas entre factores como edad, estilo de vida y condiciones médicas
+
+3. **XGBoost/LightGBM:**
+- Ventajas:
+  - Alto rendimiento en datos estructurados
+  - Maneja bien datos desbalanceados (común en diagnósticos médicos)
+  - Puede capturar patrones sutiles en los factores de riesgo
+- Uso: Modelo principal para predicción debido a su precisión y capacidad de manejo de datos complejos
+
+**Redes Neuronales:**
+
+1. **Perceptrón Multicapa (MLP):**
+- Ventajas:
+  - Puede capturar relaciones muy complejas
+  - Útil para integrar diferentes tipos de datos
+  - Puede procesar tanto variables continuas como categóricas
+- Uso: Especialmente útil si se integran datos de diferentes fuentes (historial médico, datos de sensores, etc.)
 
 
 ## Alcance del Proyecto
