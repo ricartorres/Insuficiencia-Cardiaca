@@ -1,6 +1,6 @@
 # Project Charter - Entendimiento del Negocio
 
-![Descripción de la imagen](Falla-cardiaca.jpg "Título opcional")
+![Descripción de la imagen](images/Falla-cardiaca.jpg "Título opcional")
 
 ## Nombre del Proyecto
 
@@ -202,7 +202,7 @@ La metodología CRISP-DM consta de seis fases principales, que proporcionan un m
   
 ## Cronograma
 
-![Descripción de la imagen](CronogramaFallaCardiaca.png "Título opcional")
+![Descripción de la imagen](images/CronogramaFallaCardiaca.png "Título opcional")
 
 ## Equipo del Proyecto
 
