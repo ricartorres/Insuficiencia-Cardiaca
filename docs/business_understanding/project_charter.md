@@ -237,6 +237,18 @@ La metodología CRISP-DM consta de seis fases principales, que proporcionan un m
 
 ![Descripción de la imagen](images/CronogramaFallaCardiaca.png "Título opcional")
 
+## Seguimiento y Avances
+
+Reuniones de semana 1 
+En la semana 1 tuvimos dos reuniones que correspondieron a integración del equipo de trabajo y a definir el problema a trabajar.
+
+![Descripción de la imagen](images/Semana1.png "Título opcional")
+
+Reuniones de semana 2
+En la semana 2 tuvimos cuatro reuniones que correspondieron a generación de entendimiento de negocio, generación de extracción de los datos, ajustar cronograma ajustar documento y realizar entrega del primer hito.
+![Descripción de la imagen](images/Semana2.png "Título opcional")
+
+
 ## Equipo del Proyecto
 
 - Henry Hernán Bolaños Bravo
