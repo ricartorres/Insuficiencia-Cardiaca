@@ -2,37 +2,29 @@
 
 ## Base de datos 1
 
-**Agregar una descripción de la tabla o fuente de datos.
+"Heart Failure Prediction" es un dataset tomado de Kaggle. Es un conjunto de datos que contiene información sobre pacientes con insuficiencia cardíaca, con el objetivo de predecir la probabilidad de mortalidad o reingreso hospitalario debido a esta condición.
 
-| Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| --- | --- | --- | --- | --- |
-| variable_1 | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_3 | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_4 | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_5 | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+Este dataset incluye variables como: la edad, el sexo, la presión arterial, el ritmo cardíaco, la función ventricular, entre otras. También incluye una variable objetivo que indica si el paciente falleció o fue reingresado en el hospital debido a insuficiencia cardíaca.
 
-- **Variable**: nombre de la variable.
-- **Descripción**: breve descripción de la variable.
-- **Tipo de dato**: tipo de dato que contiene la variable.
-- **Rango/Valores posibles**: rango o valores que puede tomar la variable.
-- **Fuente de datos**: fuente de los datos de la variable.
 
-## Base de datos 2
+| Variable | Descripción | Tipo de dato | Rango/Valores posibles |
+| --- | --- | --- | --- |
+| age | Edad | numérica continua | 40-95 años |
+| anaemia | Disminución de glóbulos rojos o hemoglobina | categórica binaria | 0 = no, 1 = sí |
+| creatinine_phosphokinase | Nivel de la enzima CPK en la sangre | numérica continua | 23-7860 U/L |
+| diabetes | Si el paciente tiene diabetes | categórica binaria |0 = no, 1 = sí |
+| ejection_fraction | Porcentaje de sangre que sale del corazón en cada contracción | numérica continua | 14-80% |
+| high_blood_pressure | Si el paciente tiene hipertensión | categórica binaria | 0 = no, 1 = sí |
+| platelets | Recuento de plaquetas en la sangre | numérica continua | 66000-850000 plt/μL |
+| serum_creatinine | Nivel de creatinina sérica en la sangre | numérica continua | 0.5-9.4 mg/dL |
+| serum_sodium | Level of serum sodium in the blood | numérica continua | 114-148 mmol/L |
+| sex | Sexo del paciente | categórica binaria | 0 = masculino, 1 = femenino |
+| smoking | Hábito de fumar del paciente | categórica binaria | 0 = no, 1 = sí |
+| time | Tiempo de seguimiento del paciente | numérica continua | 4-285 días |
+| DEATH_EVENT | Evento de muerte del paciente | categórica binaria | 0 = no, 1 = sí |
 
-**Agregar una descripción de la tabla o fuente de datos.
 
-| Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| --- | --- | --- | --- | --- |
-| variable_1 | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_3 | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_4 | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-| variable_5 | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Fuente de datos |
-
-- **Variable**: nombre de la variable.
-- **Descripción**: breve descripción de la variable.
-- **Tipo de dato**: tipo de dato que contiene la variable.
-- **Rango/Valores posibles**: rango o valores que puede tomar la variable.
-- **Fuente de datos**: fuente de los datos de la variable.
+### Clasificación de las Variables
+Variables categóricas: 7 variables (anaemia, diabetes, high_blood_pressure, sex, smoking, DEATH_EVENT)
+Variables numéricas: 6 variables (age, creatinine_phosphokinase, ejection_fraction, platelets, serum_creatinine, serum_sodium, time)
 
