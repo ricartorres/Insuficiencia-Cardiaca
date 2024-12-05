@@ -10,9 +10,54 @@ En esta sección se presenta un resumen general de los datos. Se describe el nú
 
 En esta sección se presenta un resumen de la calidad de los datos. Se describe la cantidad y porcentaje de valores faltantes, valores extremos, errores y duplicados. También se muestran las acciones tomadas para abordar estos problemas.
 
+### 1. Número total de observaciones y variables
+- Observaciones (filas): El dataset contiene 299 registros.
+- Variables (columnas): Hay 13 columnas, de las cuales 12 son predictoras y 1 es la variable objetivo (target).
+
+### 2. Tipos de variables
+- Variables numéricas:
+Incluyen valores como edad, fracción de eyección, y niveles de creatinina. Ejemplo: age, ejection_fraction, serum_creatinine.
+- Variables categóricas:
+Representan valores discretos como fumar o si el paciente tiene diabetes. Ejemplo: smoking, diabetes. 
+
+### 3. Presencia de valores faltantes
+- Resumen de valores faltantes:
+Este dataset no tiene valores faltantes explícitos en las columnas (¡excelente calidad de datos!).
+
+### 4. Distribución de las variables
+- Edad
+Rango: 40 a 95 años.
+Media: 60 años.
+Desviación estándar: 11.2 años.
+Gráfico: La edad sigue una distribución aproximadamente normal, con un ligero sesgo hacia edades más avanzadas.
+
+- Fracción de Eyección
+Rango: 14% a 80%.
+Media: 38%.
+Gráfico: Una distribución asimétrica con más pacientes en rangos bajos (indicativo de insuficiencia cardíaca).
+
+- Variables categóricas (e.g., Género, Fumar)
+Género:
+Hombres: 194 (65%).
+Mujeres: 105 (35%).
+Fumar:
+No: 201 (67%).
+Sí: 98 (33%).
+
+
 ## Variable objetivo
 
 En esta sección se describe la variable objetivo. Se muestra la distribución de la variable y se presentan gráficos que permiten entender mejor su comportamiento.
+
+### Descripción de la Variable Objetivo
+- Nombre de la variable: target
+- Tipo de variable: Categórica binaria (0 o 1).
+- Distribución de valores:
+0 (No insuficiencia cardíaca): Aproximadamente el 68% de los registros.
+1 (Insuficiencia cardíaca): Aproximadamente el 32% de los registros.
+
+ --> Código que genera un gráfico de barras para visualizar la distribución de la variable objetivo:
+
 
 ## Variables individuales
 
