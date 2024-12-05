@@ -66,4 +66,20 @@
 
       Realizar el escalado de características.
 
-      
+### Versionado de los datos
+      Los datos extraidos de kaggle definidos en los puntos anteriores, se versionaron por DVC a un repositorio de google drive, a continuacipon los pasos que se realizaron
+
+- [ ] Instalar DVC y dependencias
+      Se instala en google collab el DVC
+- [ ] Inicializar DVC en el proyecto
+      Ejecutar el inicio de DVC
+- [ ] Configurar el remote en Google Drive
+      Se configurar un remoto de DVC para Google Drive.
+- [ ] Guardar el DataFrame en un archivo.
+      Se guarda tu DataFrame en un archivo.
+- [ ] Agregar el archivo al control de versiones de DVC.
+      Se agrega el archivo del DataFrame al control de versiones.
+- [ ] Hacer commit de los cambios de DVC
+      Se realiza un commit para versionar el archivo en DVC.
+- [ ] Subir el archivo a Google Drive
+      Se sube el archivo al remoto configurado en Google Drive
