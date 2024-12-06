@@ -103,6 +103,7 @@ La distribución es aproximadamente normal, pero con un ligero sesgo hacia edade
 Los pacientes mayores (≥60 años) tienen una probabilidad más alta de insuficiencia cardíaca.
 
 
+
 ### 2. Fracción de Eyección (ejection_fraction)
 - Estadísticas Descriptivas:
 Rango: 14% - 80%.
