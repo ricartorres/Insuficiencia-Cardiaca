@@ -206,7 +206,7 @@ Ranking de Importancia de Variables:
 
 ![Descripción de la imagen](images/Ranking_Importancia_Variables1.png "Título opcional")
 
-Usando PCA
+### Usando PCA
 
 ![Descripción de la imagen](images/Correlación_Variables_DEATH_EVENT.png "Título opcional")
 
