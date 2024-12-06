@@ -102,6 +102,7 @@ La distribución es aproximadamente normal, pero con un ligero sesgo hacia edade
 - Relación con la Variable Objetivo:
 Los pacientes mayores (≥60 años) tienen una probabilidad más alta de insuficiencia cardíaca.
 
+![Descripción de la imagen](images/Distribución_Variableage.png "Título opcional")
 
 
 ### 2. Fracción de Eyección (ejection_fraction)
@@ -115,6 +116,8 @@ Distribución asimétrica hacia el extremo inferior.
 - Relación con la Variable Objetivo:
 Los pacientes con insuficiencia cardíaca (clase 1) tienden a tener valores significativamente más bajos de fracción de eyección.
 
+![Descripción de la imagen](images/Distribución_Variableejection_fraction.png "Título opcional")
+
 ### 3. Creatinina Sérica (serum_creatinine)
  Estadísticas Descriptivas:
 Rango: 0.5 - 9.4 mg/dL.
@@ -124,6 +127,8 @@ Mediana: 1.1 mg/dL.
 La mayoría de los pacientes tienen niveles de creatinina normales (<1.5 mg/dL), pero hay una cola larga hacia valores extremos (>3 mg/dL).
 - Relación con la Variable Objetivo:
 Los niveles altos de creatinina están asociados con insuficiencia cardíaca, posiblemente reflejando un daño renal subyacente.
+
+![Descripción de la imagen](images/Distribución_Variableserum_creatinine.png "Título opcional")
 
 ### 4. Hemoglobina Sérica (serum_sodium)
 - Estadísticas Descriptivas:
@@ -135,12 +140,16 @@ Distribución normal, con la mayoría de los valores entre 135 y 140 mEq/L.
 - Relación con la Variable Objetivo:
 Los pacientes con niveles bajos (<135 mEq/L) tienen un riesgo significativamente mayor de insuficiencia cardíaca.
 
+![Descripción de la imagen](images/Distribución_Variableserum_sodium.png "Título opcional")
+
 ### 5. Diabetes (diabetes)
 - Tipo de Variable: Categórica (0: No, 1: Sí).
 - Distribución:
 El 42% de los pacientes tienen diabetes.
 - Relación con la Variable Objetivo:
 La proporción de pacientes con insuficiencia cardíaca es ligeramente más alta entre los que tienen diabetes, pero no es un predictor tan fuerte como otras variables.
+
+![Descripción de la imagen](images/Distribución_Variablediabetes.png "Título opcional")
 
 ### 6. Fumar (smoking)
 - Tipo de Variable: Categórica (0: No, 1: Sí).
@@ -149,12 +158,16 @@ El 33% de los pacientes son fumadores.
 - Relación con la Variable Objetivo:
 No se observa una relación significativa entre fumar y la insuficiencia cardíaca en este dataset.
 
+![Descripción de la imagen](images/Distribución_Variablesmoking.png "Título opcional")
+
 ### 7. Sexo (sex)
 - Tipo de Variable: Categórica (1: Hombre, 0: Mujer).
 - Distribución:
 El 65% de los pacientes son hombres.
 - Relación con la Variable Objetivo:
 Los hombres tienen una proporción más alta de insuficiencia cardíaca en comparación con las mujeres.
+
+![Descripción de la imagen](images/Distribución_Variablesex.png "Título opcional")
 
 ### 8. Frecuencia Cardiaca Máxima (max_heartrate)
 - Estadísticas Descriptivas:
@@ -164,6 +177,7 @@ Media: 130 bpm.
 Distribución aproximadamente normal.
 - Relación con la Variable Objetivo:
 Los pacientes con insuficiencia cardíaca tienden a tener frecuencias cardíacas más bajas.
+
 
 ### Conclusión General
 - Las variables como edad, fracción de eyección, creatinina sérica y hemoglobina sérica tienen una relación clara con la insuficiencia cardíaca, mostrando diferencias notables entre las clases de la variable objetivo.
@@ -190,9 +204,14 @@ Ranking de Importancia de Variables:
 3                   diabetes     0.009785
 9                        sex     0.009780
 
+![Descripción de la imagen](images/Ranking_Importancia_Variables1.png "Título opcional")
+
+
+
 ## Relación entre variables explicativas y variable objetivo
 
 En esta sección se presenta un análisis de la relación entre las variables explicativas y la variable objetivo. Se utilizan gráficos como la matriz de correlación y el diagrama de dispersión para entender mejor la relación entre las variables. Además, se pueden utilizar técnicas como la regresión lineal para modelar la relación entre las variables.
+
 
 ### Relación General
 La variable DEATH_EVENT en este conjunto de datos indica si un paciente experimentó insuficiencia cardíaca (1) o no (0). La relación entre las variables explicativas y DEATH_EVENT puede analizarse de varias maneras:
