@@ -206,11 +206,15 @@ Ranking de Importancia de Variables:
 
 ![Descripción de la imagen](images/Ranking_Importancia_Variables1.png "Título opcional")
 
+Usando PCA
+
+![Descripción de la imagen](images/Correlación_Variables_DEATH_EVENT.png "Título opcional")
 
 
 ## Relación entre variables explicativas y variable objetivo
 
 En esta sección se presenta un análisis de la relación entre las variables explicativas y la variable objetivo. Se utilizan gráficos como la matriz de correlación y el diagrama de dispersión para entender mejor la relación entre las variables. Además, se pueden utilizar técnicas como la regresión lineal para modelar la relación entre las variables.
+
 
 
 ### Relación General
@@ -224,7 +228,6 @@ La variable DEATH_EVENT en este conjunto de datos indica si un paciente experime
 - Es una de las variables más relevantes para predecir insuficiencia cardíaca.
 - Interpretación: Los pacientes con una fracción de eyección más baja tienen mayor probabilidad de pertenecer a la clase DEATH_EVENT = 1.
 - Visualización: Gráficos de caja y violín muestran claras diferencias entre las clases.
-
 2. serum_creatinine:
 - Altos niveles de creatinina sérica están asociados con un mayor riesgo de insuficiencia cardíaca.
 - Patrón: Un aumento significativo en los valores medios de esta variable para DEATH_EVENT = 1 sugiere su importancia.
@@ -237,7 +240,19 @@ La variable DEATH_EVENT en este conjunto de datos indica si un paciente experime
 - Niveles bajos de sodio en suero son más comunes en pacientes con insuficiencia cardíaca.
 Relación: Hay una tendencia inversa clara.
 
---> Gráficos
+![Descripción de la imagen](images/Relación_variables_numéricasage_DEATH_EVENT.png "Título opcional")
+![Descripción de la imagen](images/Relación_variables_numéricasanaemia_DEATH_EVENT.png "Título opcional")
+![Descripción de la imagen](images/Relación_variables_numéricasdiabetes_DEATH_EVENT.png "Título opcional")
+![Descripción de la imagen](images/Relación_variables_numéricasejection_fraction_DEATH_EVENT.png "Título opcional")
+![Descripción de la imagen](images/Relación_variables_numéricashigh_blood_pressure_DEATH_EVENT.png "Título opcional")
+![Descripción de la imagen](images/Relación_variables_numéricasplatelets_DEATH_EVENT.png "Título opcional")
+![Descripción de la imagen](images/Relación_variables_numéricasserum_creatinine_DEATH_EVENT.png "Título opcional")
+![Descripción de la imagen](images/Relación_variables_numéricasserum_sodium_DEATH_EVENT.png "Título opcional")
+![Descripción de la imagen](images/Relación_variables_numéricassex_DEATH_EVENT.png "Título opcional")
+![Descripción de la imagen](images/Relación_variables_numéricastime_DEATH_EVENT.png "Título opcional")
+
+
+
 
 ### Conclusión del Análisis
 1. Variables Clave:
