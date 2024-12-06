@@ -84,8 +84,8 @@ En esta sección se describe la variable objetivo. Se muestra la distribución d
 0 (No insuficiencia cardíaca): Aproximadamente el 68% de los registros.
 1 (Insuficiencia cardíaca): Aproximadamente el 32% de los registros.
 
- --> Código que genera un gráfico de barras para visualizar la distribución de la variable objetivo:
-
+![Descripción de la imagen](images/Distribución_Objetivo.png "Título opcional")
+ 
 
 ## Variables individuales
 
@@ -101,6 +101,7 @@ La mayoría de los pacientes tienen entre 50 y 70 años.
 La distribución es aproximadamente normal, pero con un ligero sesgo hacia edades mayores.
 - Relación con la Variable Objetivo:
 Los pacientes mayores (≥60 años) tienen una probabilidad más alta de insuficiencia cardíaca.
+
 
 ### 2. Fracción de Eyección (ejection_fraction)
 - Estadísticas Descriptivas:
